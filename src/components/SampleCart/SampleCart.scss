@@ -1,0 +1,37 @@
+@import '../../styles/sizes';
+@import '../../styles/colors';
+$headerHeight: 1.2rem;
+
+.mcc-sample-cart {
+  position: relative;
+  height: $bodyHeight;
+  border: 1px solid white;
+
+  .mcc-sample-cart-header {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    height: $headerHeight;
+    font-size: $headerHeight;
+    background-color: white;
+    color: $purple;
+  }
+
+  .mcc-sample-list-container {
+    padding: .25rem;
+  }
+
+  .mcc-sample-cart-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    height: $headerHeight;
+    font-size: $headerHeight;
+    background-color: white;
+    color: $purple;
+    //background-color: lighten($purple, 15%);
+    border-top: 1px solid white;
+    text-align: center;
+  }
+}
