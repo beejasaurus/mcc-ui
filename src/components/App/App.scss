@@ -1,0 +1,27 @@
+@import '../../styles/colors';
+
+.declaration-order {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  /* Misc */
+}
+
+.mcc-header {
+  height: 10rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: darken($purple, 5%);
+
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+}
+
+.mcc-body {
+  padding: .25rem;
+}
+
+.mcc-footer {}

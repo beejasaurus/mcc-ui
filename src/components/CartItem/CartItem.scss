@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+$backgroundColor: lighten($purple, 5%);
+$sampleHeight: 4rem;
+
+.mcc-cart-item {
+  position: relative;
+  height: $sampleHeight;
+  //padding-left: 1rem;
+  padding-left: 4rem;
+  line-height: $sampleHeight;
+  background-color: lighten($purple, 5%);
+  border: 1px solid white;
+
+  .mcc-cart-item-name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .mcc-list-button {
+    position: absolute;
+    //right: 0;
+    left: 0;
+    height: 100%;
+    width: 1.5rem;
+    font-weight: bold;
+    background-color: lighten($backgroundColor,10%);
+    border: none;
+    color: white;
+  }
+}
