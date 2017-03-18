@@ -1,0 +1,43 @@
+@import '../../styles/colors';
+$headerHeight: 1.2rem;
+
+.mcc-sample-stage {
+    width: 100%;
+    padding: 0 1rem;
+
+    .mcc-sample-info {
+        width: calc(100% - 2rem);
+        border: 1px solid white;
+    }
+}
+
+.mcc-sample-info {
+    width: calc(100% - 2rem);
+    height: 60vh;
+    border: 1px solid white;
+
+    .mcc-sample-header {
+        position: relative;
+        height: $headerHeight;
+        padding: 1rem;
+        font-size: $headerHeight;
+        color: $purple;
+        background-color: white;
+    }
+
+    .mcc-sample-dismiss {
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-decoration: none;
+        padding: .75rem;
+    }
+
+    .mcc-sample-body {
+        padding: 1rem;
+    }
+}
+
+.mcc-sample-info.mcc-no-sample {
+    border: none;
+}
